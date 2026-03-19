@@ -20,6 +20,12 @@ html{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+    var x = 20;
+  while (x < 340) {
+    text("🌼", x, 340);
+    x += 20;
+  };
 }
 
 #myCanvas2 {
